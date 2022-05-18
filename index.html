@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="reg_search_format.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <!--Serves as the form that will used to google search-->
+        <div class="main">
+
+            <img id="g_image" src="google.jpg">
+        
+            <form action="https://www.google.com/search">
+
+                <i class="material-icons" id="search_icon">search</i>
+                <input id=search_bar type="text" name="q" placeholder="Search...">
+                    
+                <div>
+                    <!--One input should actually submit the query, the other should direct to...?-->
+                    <input class="submit_button" name="btnK" type="submit" value="Google Search">
+                    <input class="submit_button" name="btnI" type="submit" value="I'm feeling Lucky">
+                </div>
+            </form>
+
+            <!--Represents the grey bar at the bottom of the web page-->
+            <div class="footer">
+                
+                <div class="bottom_left">
+                    <a href="https://ads.google.com">Advertising</a>
+                    <a href="https://smallbusiness.withgoogle.com">Business</a>
+                    <a href="https://google.com/search/howsearchworks">How Search Works</a>
+                </div>
+
+                <div class="bottom_right">
+                    <a href="https://policies.google.com/privacy">Privacy</a>
+                    <a href="https://policies.google.com/terms">Terms</a>
+                    <a href="https://google.com/preferences">Settings</a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!--Serves as the block that contains the top right buttons
+        to navigate to other pages.-->
+        <div class="options">
+            
+            <a href="g_image.html" style="font-family: Roboto;">Images</a>
+            
+            <a href="a_search.html" style="font-family: Roboto;">Advanced Search</a>
+            
+        </div>
+
+    </body>
+</html>

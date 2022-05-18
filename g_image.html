@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Images</title>
+        <link rel="stylesheet" href="reg_search_format.css" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <!--Serves as the form that will used to image search-->
+        <div class="main">
+                <img id="g_image" src="images.jpg">
+            
+
+            <form action="https://images.google.com/images">
+
+                <i class="material-icons" id="search_icon">search</i>
+                <input id=search_bar type="text" name="q" placeholder="Search...">
+                <input type="hidden" name="tbm" value="isch">
+                
+                <div>
+                    <input class="submit_button" type="submit" value="Search Image">
+                </div>
+
+            </form>
+
+            <!--Represents the grey bar at the bottom of the web page-->
+            <div class="footer">
+                
+                <div class="bottom_left">
+                    <a href="https://ads.google.com">Advertising</a>
+                    <a href="https://smallbusiness.withgoogle.com">Business</a>
+                    <a href="https://google.com/search/howsearchworks">How Search Works</a>
+                </div>
+
+                <div class="bottom_right">
+                    <a href="https://policies.google.com/privacy">Privacy</a>
+                    <a href="https://policies.google.com/terms">Terms</a>
+                    <a href="https://google.com/preferences">Settings</a>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!--Serves as the block that will help navigate back to search.-->
+        <div class="options">
+            
+            <a href="index.html" style="font-family: Roboto;">Google Search</a>
+            
+        </div>
+
+    </body>
+</html>

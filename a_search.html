@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="reg_search_format.css">
+        <link rel="stylesheet" href="advanced_search.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+
+        <h2 id="main_header">Google</h2>
+
+        <div id="advanced_header">
+            <label>Advanced Search</label>
+        </div>
+
+        <div style="border-color: #3c4043; border-bottom: 1px solid #3c4043;"></div>
+
+        <div class="main_content">
+            <form action="https://google.com/search" style="font-family: Roboto;">
+            
+                <div class="column left">
+                    
+                    <!--Change this from span to something else, span specfies the inside of elements-->
+                    <span style="font-size: 16px;">
+                        Find pages with...
+                    </span>
+
+                    <div class="row">
+                        <label class="fields" for="field1">all these words:</label>
+                        <input class="text_input" id="field1" type="text" name="as_q">
+                    </div>
+
+                    <div class="row">
+                        <label class="fields" for="field2">this exact word or phrases:</label>
+                        <input class="text_input" id="field2" type="text" name="as_epq">
+                    </div>
+
+                    <div class="row">
+                        <label class="fields" for="field3">any of these words:</label>
+                        <input class="text_input" id="field3" type="text" name="as_oq">
+                    </div>
+
+                    <div class="row">
+                        <label class="fields" for="field4">none of these words:</label>      
+                        <input class="text_input" id="field4" type="text" name="as_eq">
+                    </div>
+
+                </div>
+            
+                <!--SECOND COLUMN-->
+                <div class="column right">
+                    
+                    <!--Change this from span to something else, span specfies the inside of elements-->
+                    <span style="font-size: 16px; color: #777;">
+                        To do this in the search box...
+                    </span>
+
+                    <div class="row"><label class="secWords">Type the important words:<span class="mono">tricolor rat terrier</span></label></div>
+
+                    <div class="row"><label class="secWords">Put exact words in quotes:<span class="mono">"rat terrier"</span></label></div>
+
+                    <div class="row"><label class="secWords">Type OR between all the words you want:<span class="mono">miniature OR standard</span></label></div>
+
+                    <div class="row"><label class="secWords">Put a minus sign just before words that you don't want:<span class="mono">-rodent, -"Jack Russell"</span></label></div>
+
+                </div>
+            
+                <div id= button_space>
+                    <input class="ad_button" type="submit" value="Advanced Search"> 
+                </div>
+            </form>
+
+        </div>
+        
+        <div class="options">
+            <a href="index.html" style="font-family: Roboto;">Google Search</a>
+        </div>
+
+       
+    </body>
+</html>
